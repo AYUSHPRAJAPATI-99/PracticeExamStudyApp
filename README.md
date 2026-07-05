@@ -133,17 +133,3 @@ npm run build
 
 ---
 
-## Django → Node.js Mapping
-
-| Django | Node.js / React |
-|--------|-----------------|
-| `models.py` | MySQL tables (`migrate.js`) |
-| `views.py` | Express routes (`routes/*.js`) |
-| `urls.py` | Express router + React Router |
-| `templates/*.html` | React pages (`pages/*.js`) |
-| `static/css/style.css` | `index.css` + component CSS modules |
-| `static/js/test.js` | `TakeTestPage.js` (React state + hooks) |
-| `manage.py seed_mock_data` | `node src/db/seed.js` |
-| `manage.py import_questions` | `/api/upload/questions` endpoint |
-| Django sessions | express-session |
-| Django ORM queries | mysql2 pool queries |
