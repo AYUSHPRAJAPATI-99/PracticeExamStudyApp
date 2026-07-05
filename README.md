@@ -1,6 +1,6 @@
 # MockTest Arena — Node.js + React + MySQL
 
-Converted from Django → **Node.js (Express) + React.js + MySQL**
+**Node.js (Express) + React.js + MySQL**
 
 ---
 
